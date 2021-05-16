@@ -149,6 +149,16 @@
    
     .parallax{
 		height:200px;
+			/*border-radius:5px;*/
+	position: absolute;
+	left: 0px;
+	width: 100%;
+	background: url(img/parallax.jpg) no-repeat center;
+	background-size: cover;
+	/*	background-repeat:no-repeat;*/
+	background-attachment: fixed;
+	
+	/*opacity:0.5;*/
 	}
      .parallax-inner {
         color: white;
@@ -559,7 +569,18 @@
      parallax effect
 	 ===========================*/
    
-   
+     .parallax {
+	/*border-radius:5px;*/
+	position: absolute;
+	left: 0px;
+	width: 100%;
+	background: url(img/parallax.jpg) no-repeat center;
+	background-size: cover;
+	/*	background-repeat:no-repeat;*/
+	background-attachment: fixed;
+	height: 250px;
+	/*opacity:0.5;*/
+    }
      .parallax-inner {
         color: white;
         /* text-align: center; */
@@ -975,6 +996,16 @@
    
     .parallax{
 		height:200px;
+	/*border-radius:5px;*/
+	position: absolute;
+	left: 0px;
+	width: 100%;
+	background: url(img/parallax.jpg) no-repeat center;
+	background-size: cover;
+	/*	background-repeat:no-repeat;*/
+	background-attachment: fixed;
+	/* height: 250px; */
+	/*opacity:0.5;*/
 	}
      .parallax-inner {
         color: white;
