@@ -1,0 +1,664 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+}
+
+html {
+	scroll-behavior: smooth;
+	transition-property: scroll-behavior;
+	transition-duration: 3s;
+	/*font-family:tahoma;*/
+	background-color: #f9f9f9;
+}
+
+
+/*================================
+      header css*
+====================================*/
+
+.header {
+	background-image: url(img/img6.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+	animation-name: background-image-animation;
+	animation-duration: 43s;
+	animation-iteration-count: infinite;
+	animation-delay: 3s;
+	transition-property: all;
+	transition-duration: 3s;
+	transition-timing-function: ease-in-out;
+}
+
+@keyframes background-image-animation {
+	33% {
+		background: url('img/img4.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		transition-property: all;
+		transition-duration: 3s;
+		transition-timing-function: ease-in-out;
+	}
+	66% {
+		background: url('img/img9.jpg');
+		background-size: cover;
+		background-repeat: no-repeat;
+		transition-property: all;
+		transition-duration: 3s;
+		transition-timing-function: ease-in-out;
+	}
+}
+
+
+/*========================================================header css end============================================*/
+
+
+/*========================
+   navigaton menu part(navbar)
+==========================*/
+
+.navbar {
+	/*border:2px solid red;*/
+	/*justify-content:center;*/
+	margin: 0px 137px;
+	padding: 10px 23px;
+	display: flex;
+	align-items: center;
+	background-color: black;
+	opacity: 0.7;
+	border-radius: 14px;
+	/*     position:sticky;
+	top:0px;
+	z-index:12; */
+}
+
+.logo {
+	display: flex;
+}
+
+.navbar ul {
+	display: flex;
+	flex-direction: row-reverse;
+	position: absolute;
+	right: 144px;
+}
+
+.navbar ul li {
+	list-style: none;
+	margin: 10px 10px;
+}
+
+.navbar ul li a {
+	padding: 10px 10px;
+	text-decoration: none;
+	color: white;
+	transition-property: all;
+	transition-duration: 2s;
+}
+
+.navbar ul li a:hover,
+.navbar ul li a.active {
+	color: red;
+	text-decoration: underline;
+}
+
+#red-logo1 {
+	color: red;
+}
+
+#red-logo2 {
+	color: red;
+}
+
+#white-logo {
+	color: white;
+}
+
+#red-logo1:hover,
+#red-logo2:hover {
+	transition-property: all;
+	transition-duration: .5s;
+	transition-timing-function: ease-in-out;
+	color: white;
+	cursor: pointer;
+}
+
+
+/*====================================================navigation menu part end======================================*/
+
+
+/*==============================
+    navigation text part
+================================*/
+
+@import url('https://fonts.googleapis.com/css2?family=girassol&display=swap');
+.nav-text {
+	color: white;
+	text-align: center;
+	font-size: 64px;
+	/*font-family:'Girassol',cursive;*/
+	animation-name: text-animation;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+}
+
+@keyframes text-animation {
+	from {
+		margin: 150px 0px;
+	}
+	to {
+		margin: 50px 0px;
+	}
+}
+
+.nav-text h3,
+.nav-text h2 {
+	text-shadow: 4px 4px black;
+}
+
+
+/*================================================navigation text part end=================================*/
+
+
+/*=========================
+    four boxes css
+	========================*/
+
+.container {
+	width: 96%;
+	margin: 26px auto;
+	background-color: #bfbfbf14;
+	font-size: 24px;
+	padding: 25px;
+}
+
+.container2 {
+	display: flex;
+	margin: 137px 0px 125px 0px;
+}
+
+.box {
+	border: 2px solid white;
+	box-shadow: 2px 2px 15px black;
+	border-radius: 16px;
+	padding: 8px 25px;
+	margin: 14px 14px;
+}
+
+.box:hover {
+	box-shadow: 2px 2px 15px yellowgreen;
+}
+
+.box img {
+	border: 2px solid white;
+	border-radius: 50px;
+	width: 100px;
+	height: 100px;
+	/* padding: 20px 43px; */
+	margin: 3px 0px 2px 42px;
+}
+
+.box h3 {
+	font-size: 25px;
+	font-family: cursive;
+	color: #ffa501;
+}
+
+.box p {
+	font-size: 15px;
+	font-family: cursive;
+}
+
+
+/*==============================================four boxes css end=========================================================*/
+
+
+/*=======================
+     parallax effect
+	 ===========================*/
+
+.parallax-inner {
+	color: white;
+	text-align: center;
+	/*  background-color: black;
+    opacity: 0.5;
+	border:1px solid white;*/
+	height: 100%;
+}
+
+.parallax-inner h3 {
+	font-size: 3rem;
+	text-shadow: 6px 2px #795548;
+}
+
+.parallax-inner h4 {
+	font-family: cursive;
+	font-size: 2rem;
+	text-shadow: 6px 2px #795548;
+	;
+}
+
+.parallax {
+	/*border-radius:5px;*/
+	position: absolute;
+	left: 0px;
+	width: 100%;
+	background: url(img/parallax.jpg) no-repeat center;
+	background-size: cover;
+	/*	background-repeat:no-repeat;*/
+	background-attachment: fixed;
+	height: 250px;
+	/*opacity:0.5;*/
+}
+
+
+/*=======================================parallax effect end===================================================*/
+
+
+/*=================================
+    reservation part started
+	================================*/
+
+.container3 {
+	height: 745px;
+	margin: 226px 0px 7px 0px;
+	background-color: #bfbfbf14;
+	background-color: white;
+	font-size: 24px;
+	padding: 25px;
+}
+
+.container4 {
+	display: flex;
+}
+
+.box1 {
+	/*border: 2px solid red;*/
+	height: 529px;
+	width: 550px;
+	margin: 140px 0px 44px 17px;
+	padding: 11px 23px;
+}
+
+.box2 {
+	height: 550px;
+	width: 550px;
+	margin: 140px 3px 2px 17px;
+	padding: 0px 20px;
+}
+
+.box1 img {
+	width: 100%;
+	height: 100%;
+}
+
+.box2 h3 {
+	color: #ff9800;
+	font-family: 'Roboto', sans-serif;
+	text-shadow: 3px 3px black;
+	font-size: 3rem;
+	margin: 22px 0px;
+}
+
+.box2 h2 {
+	color: #000031;
+}
+
+.btn {
+	text-decoration:none;
+	text-align: center;
+	width: 149px;
+	height: 53px;
+	/* align-items: center; */
+	/* justify-content: center; */
+	margin: 10px 180px;
+	border: 2px solid white;
+	background-color: yellowgreen;
+	border-radius: 17px;
+}
+.btn a{
+	text-decoration:none;
+	/* color:white; */
+	color:white;
+}
+.btn a:hover{
+	color:white;
+}
+.btn:hover {
+	background-color: black;
+	border: 2px solid white;
+	cursor: pointer;
+	color: white;
+	font-weight: bold;
+}
+
+
+/*====================================reservation part end================================================*/
+
+
+/*========================
+      menu bar
+=============================*/
+
+.container-menu {
+	width: 98%;
+	/* 	align-items:center;
+	justify-content:center; */
+	background-color: #d0cbcb;
+	background-color: #f9f9f9;
+}
+
+.title-menu {
+	text-align: center;
+	margin: -19px;
+}
+
+.title-menu h1 {
+	font-size: 4rem;
+	text-shadow: 2px 2px #ffa500;
+	text-decoration-color: white;
+	text-decoration: underline;
+	margin-top: 0px;
+}
+
+.for-flexing {
+	display: flex;
+	position: relative;
+	/* right:-98px; */
+	margin: 0px auto;
+	width: 86%;
+	/* margin-left: 178px;*/
+}
+
+.inner-menu {
+	border: 1px solid #f3f3f3;
+	/* width:40%; */
+	display: flex;
+	/* margin:10px 1px 10px 0px; */
+}
+
+.inner-menu img {
+	width: 250px;
+	height: 250px;
+}
+
+.content-of-menu {
+	width: 250px;
+	height: 250px;
+	background-color: white;
+	text-align: center;
+}
+
+.outer-menu {
+	margin: 0px 67px;
+}
+
+.content-of-menu h3 {
+	font-size: 27px;
+}
+
+.content-of-menu h1 {
+	color: orange;
+	text-decoration: underline;
+}
+
+.inner-menu:hover {
+	color: orange;
+	/*  border:4px solid yellowgreen; */
+	cursor: pointer;
+}
+
+.inner-menu img:hover {
+	border-radius: 60px;
+}
+
+
+/*==============================
+   customer review
+   =====================================*/
+
+.parallax-for-customer {
+	/*  background:url(img4.jpg);
+    background-size:cover;
+	background-repeat:no-repeat;
+
+	background-attachment:fixed;
+	position:absolute;
+	left:0px;
+	background-color:red; */
+	/* position:absolute;
+	left:0px; */
+	width: 99%;
+	background: url(img/parallax.jpg) no-repeat center;
+	background-size: cover;
+	/*	background-repeat:no-repeat;*/
+	background-attachment: fixed;
+}
+
+.parallax-for-customer h1 {
+	color: white;
+	font-size: 54px;
+	text-align: center;
+	text-decoration: underline;
+}
+
+.cutomer-review-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 35px;
+	color: white;
+}
+
+.customer1 {
+	border: 2px solid white;
+	width: 27%;
+	height: auto;
+	margin: 10px 10px;
+}
+
+.customer1 img {
+	margin: 9px 90px;
+	width: 176px;
+	/* justify-content: center; */
+	height: 121px;
+	border-radius: 49px;
+	color: black;
+}
+
+.customer-review-content h3 {
+	text-align: center;
+	font-size: 22px;
+}
+
+.customer-review-content h4 {
+	color: #ffe500;
+	font-size: 3rem;
+	text-align: center;
+	text-shadow: 2px 2px red;
+}
+
+.customer-review-content p {
+	text-align: center;
+}
+
+
+/*====================================================customer review end==========================================*/
+
+
+/*======================
+   before footer
+   =========================*/
+
+.before-footer {
+	height: 214px;
+	margin-top: 100px;
+	/* border:2px solid red; */
+	text-align: center;
+	background-color: #ab0000;
+}
+
+.before-footer h1 {
+	font-size: 3rem;
+	color: white;
+}
+
+.before-footer a {
+	border-radius: 15px;
+	border: 2px solid black;
+	text-decoration: none;
+	color: white;
+	/* margin: 0px 8px; */
+	padding: 14px 52px;
+	font-size: 20px;
+}
+
+.before-footer a:hover {
+	background-color: black;
+}
+
+
+/*=============================================================before footer===========================================*/
+
+
+/*============================
+             footer
+================================*/
+
+.footer {
+	/* border:3px solid red; */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: black;
+}
+
+.footer-box {
+	/* border:2px solid red; */
+	width: 30%;
+	height: 500px;
+	color: white;
+}
+
+.logo-footer {
+	display: flex;
+	font-size: 32px;
+	text-align: center;
+	margin-left: 87px;
+}
+
+#red-logo1 {
+	color: red;
+}
+
+#red-logo2 {
+	color: red;
+}
+
+#white-logo {
+	color: white;
+}
+
+#i_am_left {
+	text-align: center;
+}
+
+.links-of-socialmedia {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.links-of-socialmedia img {
+	width: 30px;
+	height: 30px;
+	margin: 10px;
+	border-radius: 15px;
+}
+
+.links-of-socialmedia img:hover {
+	border: 2px solid red;
+}
+
+#i_am_middle {
+	text-align: center;
+}
+
+#i_am_middle h3 {
+	margin-top: 50px;
+	font-size: 24px;
+	color: red;
+}
+
+.links {
+	margin-top: 63px;
+}
+
+.links ul li {
+	list-style: none;
+	margin: 28px 0px;
+}
+
+.links ul li a {
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+}
+
+.links ul li a:hover {
+	color: red;
+	text-decoration: underline;
+	transition-property: all;
+	transition-duration: 3s;
+}
+
+#i_am_right {
+	text-align: center;
+}
+
+#i_am_right h3 {
+	margin-top: 50px;
+	font-size: 24px;
+	color: red;
+}
+
+#i_am_right input {
+	padding: 14px 45px;
+	/*  border-radius: 20px; */
+	margin: 29px 0px;
+	font-size: 16px;
+}
+
+.footer-btn {
+	color: white;
+	background-color: red;
+	border: 2px solid red;
+	padding: 14px 45px;
+	font-size: 16px
+	/* border-radius:15px; */
+}
+
+.footer-btn:hover {
+	background-color: black;
+	border: 2px solid red;
+	color: white;
+}
+
+
+/*====================================================footer end=================================================*/
+
+
+/* ========================
+    footer last line
+	==========================*/
+
+.footer-last-line {
+	border: 2px solid #ab0000;
+	background-color: #ab0000;
+}
+
+.footer-last-line h4 {
+	padding: 10px 10px;
+	text-align: center;
+}

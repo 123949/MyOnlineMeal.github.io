@@ -1,0 +1,1218 @@
+@media only screen and (min-width:300px) and (max-width:500px){
+	
+	
+/*================================
+      header css for moblie 
+====================================*/
+.header {
+    background-image: url(moblie/bg_moblie.jpg);
+    /* height:100%; */
+	width:100%;
+	
+	animation-name:background-image-animation;
+	animation-duration:43s;
+	animation-iteration-count:infinite;
+	animation-delay:3s;
+	transition-property:all;
+	transition-duration:3s;
+	transition-timing-function:ease-in-out;
+	
+}
+@keyframes background-image-animation{
+	33%{
+		background:url('img/img4.jpg');
+		background-repeat:no-repeat;
+		background-size:cover;
+		transition-property:all;
+	    transition-duration:3s;
+	    transition-timing-function:ease-in-out;
+	}
+	66%{
+		background:url('img/img9.jpg');
+		background-size:cover;
+		background-repeat:no-repeat;
+		transition-property:all;
+	    transition-duration:3s;
+	    transition-timing-function:ease-in-out;
+	}
+ }
+   /*========================================================header css end============================================*/
+
+
+     /*========================
+     navigaton menu part(navbar) for moblie
+     ==========================*/
+
+
+   .navbar{
+    border-radius: 0px;
+    background-size: 100% 100%;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    background-color: black;
+    opacity: 0.7;
+    margin: 0px;
+    height: 50%;
+    /* border: 2px solid red; */
+	padding:0px;
+
+   } 
+
+  .logo{
+	display:flex;
+	justify-content:center;
+   }
+
+   .navbar ul {
+	display:flex;
+	flex-direction:column;
+	margin-top:60px;
+	
+   }
+
+  .nav-text {   
+     /*   margin-top: 205px; */
+     font-size:24px;
+     display: flex;
+     flex-direction: column;
+	 justify-content:center;
+     color: white;
+     text-align: center;
+     /* font-size: 24px; */
+     /* font-family: 'Girassol',cursive; */
+     animation-name: text-animation;
+     animation-duration: 2s;
+     animation-iteration-count: 1;
+    }
+
+    .navtext h3{
+	  font-size:24px;
+    }
+    .navtext p{
+	  font-size:20px;
+    } 
+
+
+      /*====================================================navigation menu part end======================================*/
+
+
+       /*=========================
+    four boxes css
+	========================*/
+	
+	.container {
+		margin:0px;
+	    padding:0px;
+        width: 100%;
+        /* margin-right: 98px; */
+        /* width: 96%; */
+        /* margin: 26px auto; */
+        background-color: #bfbfbf14;
+        font-size: 24px;
+        /* padding: 25px; */
+	
+    }
+	.container2 {
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    /* margin: 137px 0px 125px 0px; */
+    margin: 0px;
+   }
+	
+	.box {
+		border:none;
+		box-shadow:none;
+    /*border: 2px solid #d03801; */
+    /* box-shadow: 2px 2px 15px black; */
+    border-bottom: 2px solid grey;
+    border-radius: 16px;
+    padding: 8px 25px;
+    margin: 14px 14px;
+    width: 80%;
+   }
+	.box img {
+    border: 2px solid white;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    /* padding: 20px 43px; */
+    /* margin: 3px 0px 2px 42px; */
+   /*  margin: 0px auto; */
+    display: block;
+    }
+	
+   /*=======================
+     parallax effect
+	 ===========================*/
+   
+    .parallax{
+		height:200px;
+	}
+     .parallax-inner {
+        color: white;
+        /* text-align: center; */
+         height: 100%; 
+        }
+    .parallax-inner h3 {
+        font-size: 23px;
+        text-shadow: 6px 2px #795548;
+    }
+	.parallax-inner h4 {
+        font-family: cursive;
+        font-size: 13px;
+        text-shadow: 6px 2px #795548;
+        /* text-align: center; */
+    }
+	/*=================================
+    reservation part started
+	================================*/
+	.container3 {
+        height: 745px;
+        margin: 205px 0px 7px 0px;
+        background-color: #bfbfbf14;
+        background-color: white;
+       font-size: 19px;
+	       width: 84%;
+
+    /* padding: 25px;*/
+    }
+	
+	.container4 {
+       display: flex;
+       flex-direction: column;
+    }
+	
+	.box1 {
+		margin:0px;
+		padding:0px;
+       /* border: 2px solid red; */
+       height: 100%;
+       width: 100%;
+       /* margin: 140px 0px 44px 17px; */
+       /* padding: 11px 23px; */
+    }
+	.box2 {
+		margin:0px;
+		padding:0px;
+        height: 100%;
+        width: 100%;
+        /* margin: 140px 3px 2px 17px; */
+        /* padding: 0px 20px; */
+    }
+	.btn {
+       text-align: center;
+       width: 149px;
+       display: block;
+       margin: 0px auto;
+       height: 53px;
+       /* align-items: center; */
+       /* justify-content: center; */
+       /* margin: 10px 180px; */
+       border: 2px solid white;
+       background-color: yellowgreen;
+       border-radius: 17px;
+	}
+	
+	/*===================================================END CSS================================================*/
+	
+	/*========================
+      menu bar
+=============================*/
+    
+	.container-menu {
+        width: 99%;
+        background-color: #d0cbcb;
+        background-color: #f9f9f9;
+		margin-top:175px;
+    }
+	.title-menu {
+        text-align: center;
+		margin:0px;
+        /* margin: -19px; */
+    }
+	.title-menu h1 {
+      font-size: 3rem;
+	}
+	
+	.outer-menu {
+       /* margin: 0px 67px; */
+       width: 100%;
+	   margin:0px;
+    }
+	
+	
+	.for-flexing {
+        display: flex;
+        flex-direction: column;
+        /* position: relative; */
+        /* right: -98px; */
+        /* margin: 0px auto; */
+        width: 100%;
+        /* margin-left: 178px;*/
+    }
+	
+	.inner-menu {
+         border: 1px solid #f3f3f3;
+        width: 100%;
+       display: flex;
+	     margin:0px; 
+        /* margin: 10px 1px 10px 0px;*/
+          
+	    /* margin: 10px 1px 10px 0px; */
+    }
+/*     .content-of-menu {
+        width: 100%;
+        height: 249px;
+        background-color: white;
+        text-align: center;
+    } */
+    .inner-menu img {
+        width: 50%;
+        height: 249px;
+    } 
+   .content-of-menu {
+       width: 50%;
+       height: 249px;
+       background-color: white;
+       text-align: center;
+    }
+    /*==============================
+   customer review
+   =====================================*/
+
+   .parallax-for-customer {
+       width: 100%;
+       background: url(img/parallax.jpg) no-repeat center;
+       background-size: cover;
+       /* background-repeat: no-repeat; */
+       background-attachment: fixed;
+    }
+    .parallax-for-customer h1 {
+        color: white;
+        font-size: 43px;
+        text-align: center;
+        text-decoration: underline;
+    } 
+	  .cutomer-review-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 35px;
+        color: white;
+    }
+	
+	.customer1 {
+        border: 2px solid white;
+        width: 95%;
+        height: auto;
+        margin: 10px 10px;
+    }
+	.customer1 img {
+       margin: 10px auto;
+    display: block;
+       width: 45%;
+       /* justify-content: center; */
+       height: 121px;
+       border-radius: 49px;
+       color: black;
+    } 
+	
+/*===================================================END CSS================================================*/
+
+    
+/*======================
+   before footer
+   =========================*/
+   .before-footer {
+	   width:100%;
+       height: 214px;
+       margin-top: 67px;
+       /* border: 2px solid red; */
+       text-align: center;
+       background-color: #ab0000;
+    }  
+   .before-footer h1 {
+      font-size: 30px;
+      color: white;
+    }
+/*===================================================END CSS================================================*/
+/*============================
+     footer css
+	 ============================*/
+	 .footer {
+        /* border: 3px solid red; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: black;
+    }
+     .logo-footer {
+        display: flex;
+        font-size: 21px;
+        text-align: center;
+        /* margin-left: 87px; */
+    }
+    .links-of-socialmedia {
+        display: flex;
+        align-items: center;
+        /* justify-content: center; */
+    }
+    #i_am_left {
+		text-align:none;
+        /* text-align: center; */ 
+    }
+ 
+    .footer-box {
+        /* border: 2px solid red; */
+        width: 100%;
+        height: auto;
+        color: white;
+    }
+
+    .links ul{
+        margin: 0px;
+        /* text-align: center; */
+        margin-right: 28px;
+    }
+
+    #i_am_right p {
+        padding: 10px;
+		
+    }
+	#i_am_right{
+		margin-bottom:10px;
+	}
+	/*==================================================end css=======================================================*/
+}
+
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+/*======================
+ for fold moblie pl 280;
+ ========================*/
+ 
+ @media only screen and (max-width:300px){
+	
+	
+/*================================
+      header css for moblie 
+====================================*/
+.header {
+    background-image: url(moblie/bg_moblie.jpg);
+    /* height:100%; */
+	width:100%;
+	
+	animation-name:background-image-animation;
+	animation-duration:43s;
+	animation-iteration-count:infinite;
+	animation-delay:3s;
+	transition-property:all;
+	transition-duration:3s;
+	transition-timing-function:ease-in-out;
+	
+}
+@keyframes background-image-animation{
+	33%{
+		background:url('img/img4.jpg');
+		background-repeat:no-repeat;
+		background-size:cover;
+		transition-property:all;
+	    transition-duration:3s;
+	    transition-timing-function:ease-in-out;
+	}
+	66%{
+		background:url('img/img9.jpg');
+		background-size:cover;
+		background-repeat:no-repeat;
+		transition-property:all;
+	    transition-duration:3s;
+	    transition-timing-function:ease-in-out;
+	}
+ }
+   /*========================================================header css end============================================*/
+
+
+     /*========================
+     navigaton menu part(navbar) for moblie
+     ==========================*/
+
+
+   .navbar{
+    border-radius: 0px;
+    background-size: 100% 100%;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    background-color: black;
+    opacity: 0.7;
+    margin: 0px;
+    height: 50%;
+    /* border: 2px solid red; */
+	padding:0px;
+
+   } 
+   .navbar ul li a {
+	   padding:0px;
+	}
+
+  .logo{
+	display:flex;
+	justify-content:center;
+   }
+
+   .navbar ul {
+	display:flex;
+	flex-direction:column;
+	margin-top:60px;
+	
+	
+   }
+
+  .nav-text {   
+     /*   margin-top: 205px; */
+     font-size:24px;
+     display: flex;
+     flex-direction: column;
+	 justify-content:center;
+     color: white;
+     text-align: center;
+     /* font-size: 24px; */
+     /* font-family: 'Girassol',cursive; */
+     animation-name: text-animation;
+     animation-duration: 2s;
+     animation-iteration-count: 1;
+    }
+
+    .navtext h3{
+	  font-size:24px;
+    }
+    .navtext p{
+	  font-size:20px;
+    } 
+
+
+      /*====================================================navigation menu part end======================================*/
+
+
+       /*=========================
+    four boxes css
+	========================*/
+	
+	.container {
+		margin:0px;
+	    padding:0px;
+        width: 100%;
+        /* margin-right: 98px; */
+        /* width: 96%; */
+        /* margin: 26px auto; */
+        background-color: #bfbfbf14;
+        font-size: 24px;
+        /* padding: 25px; */
+	
+    }
+	.container2 {
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    /* margin: 137px 0px 125px 0px; */
+    margin: 0px;
+   }
+	
+	.box {
+		border:none;
+		box-shadow:none;
+    /*border: 2px solid #d03801; */
+    /* box-shadow: 2px 2px 15px black; */
+   /*  border-bottom: 2px solid grey; */
+    /* border-radius: 16px; */
+    padding: 8px 25px;
+    margin: 14px 14px;
+    width: 80%;
+   }
+	.box img {
+    border: 2px solid white;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    /* padding: 20px 43px; */
+    /* margin: 3px 0px 2px 42px; */
+   /*  margin: 0px auto; */
+    display: block;
+    }
+	/*==================================================== part end======================================*/
+   /*=======================
+     parallax effect
+	 ===========================*/
+   
+   
+     .parallax-inner {
+        color: white;
+        /* text-align: center; */
+         height: 100%; 
+        }
+    .parallax-inner h3 {
+        font-size: 23px;
+        text-shadow: 6px 2px #795548;
+    }
+	.parallax-inner h4 {
+        font-family: cursive;
+        font-size: 14px;
+        text-shadow: 6px 2px #795548;
+        /* text-align: center; */
+    }
+	
+	/*=================================================== part end======================================*/
+	
+	/*=================================
+    reservation part started
+	================================*/
+	.container3 {
+        height: 745px;
+        margin: 254px 4px 7px 0px;
+        background-color: #bfbfbf14;
+        background-color: white;
+        font-size: 24px;
+        padding: 25px;
+    }
+	
+	.container4 {
+       display: flex;
+       flex-direction: column;
+    }
+	
+	.box1 {
+		margin:0px;
+		padding:0px;
+       /* border: 2px solid red; */
+       height: 100%;
+       width: 100%;
+       /* margin: 140px 0px 44px 17px; */
+       /* padding: 11px 23px; */
+    }
+	.box2 {
+		margin:0px;
+		padding:0px;
+        height: 100%;
+        width: 100%;
+        /* margin: 140px 3px 2px 17px; */
+        /* padding: 0px 20px; */
+    }
+	.box2 h3 {
+       color: #ff9800;
+       font-family: 'Roboto', sans-serif;
+       text-shadow: 3px 3px black;
+       font-size: 3rem;
+       margin: 22px -12px;
+    }
+	.btn {
+       text-align: center;
+       width: 149px;
+       display: block;
+       margin: 0px auto;
+       height: 53px;
+       /* align-items: center; */
+       /* justify-content: center; */
+       /* margin: 10px 180px; */
+       border: 2px solid white;
+       background-color: yellowgreen;
+       border-radius: 17px;
+	}
+	
+	
+	/*==================================================== part end======================================*/
+    /*========================
+      menu bar
+=============================*/
+    
+	.container-menu {
+        width: 100%;
+        background-color: #d0cbcb;
+        background-color: #f9f9f9;
+		margin-top:413px;
+    }
+	.title-menu {
+        text-align: center;
+		margin:0px;
+        /* margin: -19px; */
+    }
+	.title-menu h1 {
+      font-size: 3rem;
+	}
+	
+	.outer-menu {
+       /* margin: 0px 67px; */
+       width: 100%;
+	   margin:0px;
+    }
+	
+	
+	.for-flexing {
+        display: flex;
+        flex-direction: column;
+        /* position: relative; */
+        /* right: -98px; */
+        /* margin: 0px auto; */
+        width: 100%;
+        /* margin-left: 178px;*/
+    }
+	
+	.inner-menu {
+         border: 1px solid #f3f3f3;
+        width: 100%;
+       display: flex;
+	     margin:0px; 
+        /* margin: 10px 1px 10px 0px;*/
+          
+	    /* margin: 10px 1px 10px 0px; */
+    }
+   .inner-menu img {
+        width: 50%;
+        height: 249px;
+    } 
+   .content-of-menu {
+       width: 50%;
+       height: 249px;
+       background-color: white;
+       text-align: center;
+    }
+   
+        /*==============================
+   customer review
+   =====================================*/
+
+   .parallax-for-customer {
+       width: 100%;
+       background: url(img/parallax.jpg) no-repeat center;
+       background-size: cover;
+       /* background-repeat: no-repeat; */
+       background-attachment: fixed;
+    }
+    .parallax-for-customer h1 {
+        color: white;
+        font-size: 43px;
+        text-align: center;
+        text-decoration: underline;
+    } 
+	  .cutomer-review-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 35px;
+        color: white;
+    }
+	
+	.customer1 {
+        border: 2px solid white;
+        width: 95%;
+        height: auto;
+        margin: 10px 10px;
+    }
+	.customer1 img {
+     margin: 10px auto;
+    display: block;
+       width: 45%;
+       /* justify-content: center; */
+       height: 121px;
+       border-radius: 49px;
+       color: black;
+    } 
+	
+   /*===================================================END CSS================================================*/
+   
+/*======================
+   before footer
+   =========================*/
+   .before-footer {
+	   width:100%;
+       height: 214px;
+       margin-top: 67px;
+       /* border: 2px solid red; */
+       text-align: center;
+       background-color: #ab0000;
+    }  
+   .before-footer h1 {
+      font-size: 30px;
+      color: white;
+    }
+/*===================================================END CSS================================================*/
+
+
+/*============================
+     footer css
+	 ============================*/
+	 .footer {
+        /* border: 3px solid red; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: black;
+    }
+     .logo-footer {
+    display: flex; 
+    font-size: 21px;
+    text-align: center;
+    margin-left: 52px;
+    }
+    
+    .links-of-socialmedia {
+        display: flex;
+        align-items: center;
+        /* justify-content: center; */
+    }
+    #i_am_left {
+		text-align:none;
+        /* text-align: center; */ 
+    }
+ 
+    .footer-box {
+        /* border: 2px solid red; */
+        width: 100%;
+        height: auto;
+        color: white;
+    }
+
+    .links ul{
+        margin: 0px;
+        /* text-align: center; */
+        margin-right: 28px;
+    }
+
+    #i_am_right p {
+        padding: 10px;
+		
+    }
+	#i_am_right{
+		margin-bottom:10px;
+	}
+	#i_am_right input {
+    padding: 14px 23px;
+    /* border-radius: 20px; */
+    margin: 29px 0px;
+    font-size: 16px;
+   }
+	/*==================================================end css=======================================================*/
+}
+
+ 
+ 
+ 
+ /*===================================== end css fold =============================================================*/
+ 
+ 
+ 
+ /*=======================================
+       surface duo csss
+	   ====================================*/
+ 
+ 
+ 
+ 
+@media only screen and (min-width:500px) and (max-width:700px){
+	
+	
+  /*================================
+      header css for moblie 
+  ====================================*/
+  .header {
+    background-image: url(moblie/bg_moblie.jpg);
+    /* height:100%; */
+	width:100%;
+	
+	animation-name:background-image-animation;
+	animation-duration:43s;
+	animation-iteration-count:infinite;
+	animation-delay:3s;
+	transition-property:all;
+	transition-duration:3s;
+	transition-timing-function:ease-in-out;
+	
+  }
+  @keyframes background-image-animation{
+	33%{
+		background:url('img/img4.jpg');
+		background-repeat:no-repeat;
+		background-size:cover;
+		transition-property:all;
+	    transition-duration:3s;
+	    transition-timing-function:ease-in-out;
+	}
+	66%{
+		background:url('img/img9.jpg');
+		background-size:cover;
+		background-repeat:no-repeat;
+		transition-property:all;
+	    transition-duration:3s;
+	    transition-timing-function:ease-in-out;
+	}
+ }
+   /*========================================================header css end============================================*/
+
+
+     /*========================
+     navigaton menu part(navbar) for moblie
+     ==========================*/
+
+
+   .navbar{
+    border-radius: 0px;
+    background-size: 100% 100%;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    background-color: black;
+    opacity: 0.7;
+    margin: 0px;
+    height: 50%;
+    /* border: 2px solid red; */
+	padding:0px;
+
+   } 
+
+  .logo{
+	display:flex;
+	justify-content:center;
+   }
+
+   .navbar ul {
+	display:flex;
+	flex-direction:column;
+	margin-top:60px;
+	margin-right:67px;
+	
+   }
+
+  .nav-text {   
+     /*   margin-top: 205px; */
+     font-size:24px;
+     display: flex;
+     flex-direction: column;
+	 justify-content:center;
+     color: white;
+     text-align: center;
+     /* font-size: 24px; */
+     /* font-family: 'Girassol',cursive; */
+     animation-name: text-animation;
+     animation-duration: 2s;
+     animation-iteration-count: 1;
+    }
+
+    .navtext h3{
+	  font-size:24px;
+    }
+    .navtext p{
+	  font-size:20px;
+    } 
+
+
+      /*====================================================navigation menu part end======================================*/
+
+
+       /*=========================
+    four boxes css
+	========================*/
+	
+	.container {
+		margin:0px;
+	    padding:0px;
+        width: 100%;
+        /* margin-right: 98px; */
+        /* width: 96%; */
+        /* margin: 26px auto; */
+        background-color: #bfbfbf14;
+        font-size: 24px;
+        /* padding: 25px; */
+	
+    }
+	.container2 {
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    /* margin: 137px 0px 125px 0px; */
+    margin: 0px;
+   }
+	
+	.box {
+		box-shadow:none;
+    /*border: 2px solid #d03801; */
+    /* box-shadow: 2px 2px 15px black; */
+    border-bottom: 2px solid grey;
+    border-radius: 16px;
+    padding: 8px 25px;
+    margin: 14px 14px;
+    width: 80%;
+   }
+	.box img {
+    border: 2px solid white;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    /* padding: 20px 43px; */
+    /* margin: 3px 0px 2px 42px; */
+   /*  margin: 0px auto; */
+    display: block;
+    }
+	
+   /*=======================
+     parallax effect
+	 ===========================*/
+   
+    .parallax{
+		height:200px;
+	}
+     .parallax-inner {
+        color: white;
+        /* text-align: center; */
+         height: 100%; 
+        }
+    .parallax-inner h3 {
+        font-size: 23px;
+        text-shadow: 6px 2px #795548;
+    }
+	.parallax-inner h4 {
+        font-family: cursive;
+        font-size: 13px;
+        text-shadow: 6px 2px #795548;
+        /* text-align: center; */
+    }
+	/*=================================
+    reservation part started
+	================================*/
+	.container3 {
+        height: 745px;
+        margin: 205px 0px 7px 0px;
+        background-color: #bfbfbf14;
+        background-color: white;
+        font-size: 24px;
+        padding: 25px;
+    }
+	
+	.container4 {
+       display: flex;
+       flex-direction: column;
+    }
+	
+	.box1 {
+		margin:0px;
+		padding:0px;
+       /* border: 2px solid red; */
+       height: 100%;
+       width: 100%;
+       /* margin: 140px 0px 44px 17px; */
+       /* padding: 11px 23px; */
+    }
+	.box2 {
+		margin:0px;
+		padding:0px;
+        height: 100%;
+        width: 100%;
+        /* margin: 140px 3px 2px 17px; */
+        /* padding: 0px 20px; */
+    }
+	.btn {
+       text-align: center;
+       width: 149px;
+       display: block;
+       margin: 0px auto;
+       height: 53px;
+       /* align-items: center; */
+       /* justify-content: center; */
+       /* margin: 10px 180px; */
+       border: 2px solid white;
+       background-color: yellowgreen;
+       border-radius: 17px;
+	}
+	
+	/*===================================================END CSS================================================*/
+	
+	/*========================
+      menu bar
+=============================*/
+    
+	.container-menu {
+        width: 100%;
+        background-color: #d0cbcb;
+        background-color: #f9f9f9;
+		margin-top:327px;
+    }
+	.title-menu {
+        text-align: center;
+		margin:0px;
+        /* margin: -19px; */
+    }
+	.title-menu h1 {
+      font-size: 3rem;
+	}
+	
+	.outer-menu {
+       /* margin: 0px 67px; */
+       width: 100%;
+	   margin:0px;
+    }
+	
+	
+	.for-flexing {
+        display: flex;
+        flex-direction: column;
+        /* position: relative; */
+        /* right: -98px; */
+        /* margin: 0px auto; */
+        width: 100%;
+        /* margin-left: 178px;*/
+    }
+	
+	.inner-menu {
+         border: 1px solid #f3f3f3;
+        width: 100%;
+       display: flex;
+	     margin:0px; 
+        /* margin: 10px 1px 10px 0px;*/
+          
+	    /* margin: 10px 1px 10px 0px; */
+    }
+   .inner-menu img {
+        width: 50%;
+        height: 249px;
+    } 
+   .content-of-menu {
+       width: 50%;
+       height: 249px;
+       background-color: white;
+       text-align: center;
+    }
+	
+	
+	    /*==============================
+   customer review
+   =====================================*/
+
+   .parallax-for-customer {
+       width: 100%;
+       background: url(img/parallax.jpg) no-repeat center;
+       background-size: cover;
+       /* background-repeat: no-repeat; */
+       background-attachment: fixed;
+    }
+    .parallax-for-customer h1 {
+        color: white;
+        font-size: 43px;
+        text-align: center;
+        text-decoration: underline;
+    } 
+	  .cutomer-review-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 35px;
+        color: white;
+    }
+	
+	.customer1 {
+        border: 2px solid white;
+        width: 95%;
+        height: auto;
+        margin: 10px 10px;
+    }
+	.customer1 img {
+
+    margin: 10px auto;
+    display: block;
+    width: 45%;
+    /* justify-content: center; */
+    height: 121px;
+    border-radius: 49px;
+    color: black;
+
+    } 
+	
+/*===================================================END CSS================================================*/
+	
+	/*======================
+   before footer
+   =========================*/
+   .before-footer {
+	   width:100%;
+       height: 214px;
+       margin-top: 67px;
+       /* border: 2px solid red; */
+       text-align: center;
+       background-color: #ab0000;
+    }  
+   .before-footer h1 {
+      font-size: 30px;
+      color: white;
+    }
+/*===================================================END CSS================================================*/
+  
+/*============================
+     footer css
+	 ============================*/
+	 .footer {
+        /* border: 3px solid red; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: black;
+    }
+     .logo-footer {
+      display: flex;
+      font-size: 34px;
+      text-align: center;
+      margin-left: 139px;
+    }
+    
+    .links-of-socialmedia {
+        display: flex;
+        align-items: center;
+        /* justify-content: center; */
+    }
+    #i_am_left {
+		text-align:none;
+        /* text-align: center; */ 
+    }
+ 
+    .footer-box {
+        /* border: 2px solid red; */
+        width: 100%;
+        height: auto;
+        color: white;
+    }
+
+    .links ul{
+        margin: 0px;
+        /* text-align: center; */
+        margin-right: 28px;
+    }
+
+    #i_am_right p {
+        padding: 10px;
+		
+    }
+#i_am_right{
+	margin-bottom:10px;
+}
+	/*==================================================end css=======================================================*/
+	 
+	 
+  
+  
+}
+

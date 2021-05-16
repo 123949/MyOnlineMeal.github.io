@@ -1,0 +1,527 @@
+/*====================================
+   css for table
+   ===================================*/
+
+@media only screen and (min-width:700px) and (max-width:1000px){
+	body{
+   /* color:white; */
+     background:linear-gradient(135deg,#71b7e6,black );
+	height:94vh;
+	display:flex;
+	justify-content:center;
+	align-items:center;	
+	animation-name:background-animation;
+	animation-duration:43s;
+	animation-iteration-count:infinite;
+	animation-delay:1s;
+	transition-property:background;
+	transition-duration:5s;
+	transition-timing-function:ease-in-out;
+	}
+	
+	@keyframes background-animation{
+	33%{
+	 background:linear-gradient(135deg,palevioletred ,#1D1B1B );
+	transition-property:background;
+	transition-duration:5s;
+	transition-timing-function:ease-in-out;
+	
+	}
+	60%{
+		background:linear-gradient(135deg,#9b59b6,#71b7e6 );
+			transition-property:background;
+	    transition-duration:5s;
+	   transition-timing-function:ease-in-out;
+	
+	}
+	}
+    .box-form{
+		/* margin-top:266px; */
+	border:2px solid white;
+	width:80%;
+	height:auto;
+	background-color:white;;
+	 margin-left:45px; 
+	padding:10px 40px;
+	border-radius:15px;
+	/* opacity:0.5; */
+     animation-name:box-animation;
+	animation-duration:39s;
+	animation-delay:3s;
+	animation-iteration-count:infinite;
+	transition-property:background-color;
+	transition-duration:3s;
+	transition-timing-function:ease-in;
+    }	
+   @keyframes box-animation{
+	   33%{
+		background-color:#ffeaea;
+		transition-property:background-color;
+		transition-duration:3s;
+		transition-timing-function:ease-in;
+	   }
+	   66%{
+		background-color:#d6d6d6;
+		transition-property:background-color;
+		transition-duration:3s;
+		transition-timing-function:ease-in;
+		
+	   }
+    }
+
+
+   .after-form{
+	   display:flex;
+	   flex-direction: column;
+	   align-items:center;
+	  justify-content:center;
+       margin-top: 15px;
+    }
+
+    .check-box 
+   {
+	  /* width:calc(100% / 2 - 20px); */
+	   font-size: 18px;
+      /*  margin: 39px 118px 10px 10px; */
+       margin-bottom: 14px;
+  }
+   .gender label , .check-box label{
+    font-size: 18px;
+    margin-left: -57px;
+    font-weight: 600;
+   }
+
+}
+
+
+/*==========================================end  tab css======================================================*/
+
+
+
+/*=====================================
+i-pad pro
+=========================================*/
+@media only screen and (min-width:1000px) and (max-width:1050px){
+	body{
+   /* color:white; */
+     background:linear-gradient(135deg,#71b7e6,black );
+	height:94vh;
+	display:flex;
+	justify-content:center;
+	align-items:center;	
+	animation-name:background-animation;
+	animation-duration:43s;
+	animation-iteration-count:infinite;
+	animation-delay:1s;
+	transition-property:background;
+	transition-duration:5s;
+	transition-timing-function:ease-in-out;
+	}
+	@keyframes background-animation{
+	33%{
+	 background:linear-gradient(135deg,palevioletred ,#1D1B1B );
+	transition-property:background;
+	transition-duration:5s;
+	transition-timing-function:ease-in-out;
+	
+	}
+	60%{
+		background:linear-gradient(135deg,#9b59b6,#71b7e6 );
+			transition-property:background;
+	    transition-duration:5s;
+	   transition-timing-function:ease-in-out;
+	
+	}
+    }
+    .box-form{
+		/* margin-top:266px; */
+	border:2px solid white;
+	width:80vw;
+	height:auto;
+	background-color:white;;
+	/* margin-left:250px; */
+	padding:10px 40px;
+	border-radius:15px;
+	animation-name:box-animation;
+	animation-duration:39s;
+	animation-delay:3s;
+	animation-iteration-count:infinite;
+	transition-property:background-color;
+	transition-duration:3s;
+	transition-timing-function:ease-in;
+    }	
+    @keyframes box-animation{
+	  33%{
+		background-color:#ffeaea;
+		transition-property:background-color;
+		transition-duration:3s;
+		transition-timing-function:ease-in;
+	  }
+	  66%{
+		background-color:#d6d6d6;
+		transition-property:background-color;
+		transition-duration:3s;
+		transition-timing-function:ease-in;
+		
+	  }
+  }
+
+
+   .after-form{
+	   display:flex;
+	   flex-direction: column;
+	   align-items:center;
+	  justify-content:center;
+       margin-top: 15px;
+    }
+
+    .check-box 
+   {
+	  /* width:calc(100% / 2 - 20px); */
+	   font-size: 18px;
+      /*  margin: 39px 118px 10px 10px; */
+       margin-bottom: 14px;
+	   margin-left: 102px;
+  }
+   .gender label , .check-box label{
+    font-size: 18px;
+    margin-left: -57px;
+    font-weight: 600;
+   }
+
+}
+
+/*====================================================end i-pad pro==============================================*/
+
+/*==============================
+    start css for surface duo
+===============================*/
+@media only screen and (min-width:450px) and (max-width:700px){
+
+    body {
+    /* color: white; */
+   background:linear-gradient(135deg,#71b7e6,black );
+    height: 100%;
+    /* width: 100vw; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	animation-name:background-animation;
+	animation-duration:43s;
+	animation-iteration-count:infinite;
+	animation-delay:1s;
+	transition-property:background;
+	transition-duration:5s;
+	transition-timing-function:ease-in-out;
+   }
+   @keyframes background-animation{
+	33%{
+	 background:linear-gradient(135deg,palevioletred ,#1D1B1B );
+	transition-property:background;
+	transition-duration:5s;
+	transition-timing-function:ease-in-out;
+	
+	}
+	60%{
+		background:linear-gradient(135deg,#9b59b6,#71b7e6 );
+			transition-property:background;
+	    transition-duration:5s;
+	   transition-timing-function:ease-in-out;
+	
+	}
+   }
+   .full-form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+   }
+   .user {
+    /* width: calc(100% / 2 - 20px); */
+    margin: 9px 0px 12px 0px;
+    width: 100%;
+    }
+	.after-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+    
+    }
+	.check-box {
+    /* width: calc(100% / 2 - 20px); */
+    font-size: 18px;
+    /* margin: 39px 118px 10px 10px; */
+	margin-bottom:10px;
+   }
+      .check-box label{
+    font-size: 14px;
+    margin-left: -78px;
+    font-weight: 600;
+	   
+   }
+
+   
+   	
+}
+
+
+/*===============================================end css for surface duo=========================================*/
+
+/* ===========================
+           400-420
+		   ======================*/
+@media only screen and (min-width:400px) and (max-width:450px){
+
+    body {
+    /* color: white; */
+      background:linear-gradient(135deg,#71b7e6,black );
+    height: 100%;
+    /* width: 100vw; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	animation-name:background-animation;
+	animation-duration:43s;
+	animation-iteration-count:infinite;
+	animation-delay:1s;
+	transition-property:background;
+	transition-duration:5s;
+	transition-timing-function:ease-in-out;
+   }
+   @keyframes background-animation{
+	33%{
+	 background:linear-gradient(135deg,palevioletred ,#1D1B1B );
+	transition-property:background;
+	transition-duration:5s;
+	transition-timing-function:ease-in-out;
+	
+	}
+	60%{
+		background:linear-gradient(135deg,#9b59b6,#71b7e6 );
+			transition-property:background;
+	    transition-duration:5s;
+	   transition-timing-function:ease-in-out;
+	
+	}
+   }
+   .full-form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+   }
+   .user {
+    /* width: calc(100% / 2 - 20px); */
+    margin: 9px 0px 12px 0px;
+    width: 100%;
+    }
+	.after-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+    
+    }
+	.check-box {
+    display: flex;
+    /* width: calc(100% / 2 - 20px); */
+    font-size: 13px;
+    /* margin: 39px 118px 10px 10px; */
+    margin-bottom: 10px;
+    margin-left: 0px;
+    width: 100%;
+    }
+   
+   .check-box label{
+	   font-size:14px;
+	   display:flex;
+	   
+   }
+   .gender label , .check-box label{
+    font-size: 14px;
+    margin-left: 5px;
+	font-weight:600;
+   }
+
+   
+   	
+}
+
+/*===========================================================end =====================================================*/	   
+		   
+
+
+/*======================================
+  moblie phones
+======================================*/
+
+
+@media only screen and (min-width:299px) and (max-width:399px){
+	
+	
+	body {
+    /* color: white; */
+   background:linear-gradient(135deg,#71b7e6,black );
+    height: 100%;
+    /* width: 100vw; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	animation-name:background-animation;
+	animation-duration:43s;
+	animation-iteration-count:infinite;
+	animation-delay:1s;
+	transition-property:background;
+	transition-duration:5s;
+	transition-timing-function:ease-in-out;
+   }
+   @keyframes background-animation{
+	33%{
+	 background:linear-gradient(135deg,palevioletred ,#1D1B1B );
+	transition-property:background;
+	transition-duration:5s;
+	transition-timing-function:ease-in-out;
+	
+	}
+	60%{
+		background:linear-gradient(135deg,#9b59b6,#71b7e6 );
+			transition-property:background;
+	    transition-duration:5s;
+	   transition-timing-function:ease-in-out;
+	
+	}
+   }
+   
+   .full-form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    }
+	.user {
+    /* width: calc(100% / 2 - 20px); */
+    margin: 9px 0px 12px 0px;
+    width: 100%;
+    }
+	.after-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+	    margin-left: -20px;
+    }
+	.check-box {
+    /* width: calc(100% / 2 - 20px); */
+    font-size: 14px;
+    /* margin: 39px 118px 10px 10px; */
+    width: 100%;
+	margin-bottom: 12px;
+    }
+	.check-box label {
+    font-size: 11px;
+    margin-left: 21px;
+    font-weight: 600;
+   }
+   .gender label {
+     font-size: 15px;
+    margin-left: -11px;
+    font-weight: 600;
+   }
+	
+	
+   
+}
+/*=======================================end css  for moblie more 300px==========================================*/
+
+@media only screen and (max-width:300px){
+	.box-form{
+		margin-top:400px;
+    	border:2px solid white;
+	    width:60vw;
+	    height:auto;
+	   background-color:white;;
+	   /* margin-left:250px; */
+	   padding:10px 40px;
+	   border-radius:15px;
+	   /* opacity:0.5; */
+	   	animation-name:box-animation;
+	animation-duration:39s;
+	animation-delay:3s;
+	animation-iteration-count:infinite;
+	transition-property:background-color;
+	transition-duration:3s;
+	transition-timing-function:ease-i
+
+	}
+	@keyframes box-animation{
+	33%{
+		background-color:#ffeaea;
+		transition-property:background-color;
+		transition-duration:3s;
+		transition-timing-function:ease-in;
+	}
+	66%{
+		background-color:#d6d6d6;
+		transition-property:background-color;
+		transition-duration:3s;
+		transition-timing-function:ease-in;
+		
+	}
+    }
+   .after-form {
+       display: flex;
+      flex-direction: column;
+      /* align-items: center; */
+      margin-top: 15px;
+      float: left;
+      width: 100vw;
+      margin-bottom: 13px;
+      margin-left: -80px;
+  }
+   .user {
+    /* width: calc(100% / 2 - 20px); */
+    margin: 9px 0px 12px 0px;
+    width: 100%;
+   }
+  /*  .after-form {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; 
+    margin-top: 15px;
+    float: left;
+    width: 100vw;
+    margin-bottom: 13px;
+} */
+   .check-box {
+    width: calc(100% / 2 - 20px);
+    font-size: 18px;
+    /* margin: 39px 118px 10px 10px; */
+    width: 100vw;
+    margin-left: 44px;
+   }
+   .check-box label {
+    font-size: 12px;
+    margin-left: 34px;
+    font-weight: 600;
+    }
+   .gender label{
+	   font-size: 15px;
+    margin-left: 50px;
+    font-weight: 600; 
+   }
+   
+   
+}
+
+/*==========================================end css for 300px============================================================*/
+
+
+/*===============================
+    less then 300
+=================================*/
+
+
+
+
+
