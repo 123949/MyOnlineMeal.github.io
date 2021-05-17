@@ -150,7 +150,7 @@
    
     .parallax{
 
-	   
+	   padding:50px 0px;
 	position: relative; height:auto;
 	width: 100%;
 	background: url(img/parallax.jpg) no-repeat center;
