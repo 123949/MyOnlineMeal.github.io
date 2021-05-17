@@ -151,7 +151,7 @@
     .parallax{
 
 	   
-	position: relative;
+	position: relative; height:auto;
 	width: 100%;
 	background: url(img/parallax.jpg) no-repeat center;
 	background-size: cover;
@@ -162,7 +162,7 @@
      .parallax-inner {
         color: white;
         /* text-align: center; */
-         height: 100%; 
+         height: auto; 
         }
     .parallax-inner h3 {
         font-size: 23px;
